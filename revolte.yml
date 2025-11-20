@@ -24,6 +24,8 @@ revolte:
               DATABASE_PASSWORD: '#{db.dbPassword}'
               DATABASE_NAME: '#{db.dbName}'
               DB_URL: 'jdbc:#{db.engine}://#{db.dbUrl}:#{db.dbPort}/#{db.dbName}?useSSL=false&allowPublicKeyRetrieval=true'
+              DB_USERNAME: '#{db.dbUsername}'
+              DB_PASSWORD: '#{db.dbPassword}'
               PORT: 8080
           specifications:
             cpu: 2
